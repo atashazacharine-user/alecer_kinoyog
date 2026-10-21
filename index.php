@@ -8,6 +8,7 @@ if (isset($_SESSION["user_id"])) {
     exit;
 }
 
+
 $message = "";
 
 if (isset($_GET["registered"])) {

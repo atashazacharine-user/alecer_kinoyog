@@ -23,6 +23,7 @@ $username = $_SESSION["username"];
     <div class="container">
         <h1>Dashboard</h1>
 
+    
         <h2>
             Welcome, <?= htmlspecialchars($username) ?>!
         </h2>
